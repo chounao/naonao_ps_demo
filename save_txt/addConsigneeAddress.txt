@@ -1,0 +1,6 @@
+POST /package/addConsigneeAddress.do HTTP/1.1
+Host:albbapi.fhd001.com
+User-Agent:None
+Content-Type:None
+ 
+consigneeName=444&consigneeMobile=18824543810&consigneePhone=&consigneeProvince=%E7%94%98%E8%82%83%E7%9C%81&consigneeCity=%E5%BA%86%E9%98%B3%E5%B8%82&consigneeArea=%E5%AE%81%E5%8E%BF&consigneeAddress=%E6%96%AF%E5%85%B0%E6%96%AF%E5%85%B0881&consigneeZip=&referer=albbportal&token=%257EAVUBCQFZDVINABRVDwhDVhVFAAtFXEVGAVQeUVVRFQFLFlZWRQhHFwUEFAVPUAELXwRQVwADDgQG%257E1%257E

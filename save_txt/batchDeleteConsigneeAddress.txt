@@ -1,0 +1,6 @@
+POST /package/batchDeleteConsigneeAddress.do HTTP/1.1
+Host:albbapi.fhd001.com
+User-Agent:None
+Content-Type:None
+ 
+consigneeIds=64040469&referer=albbportal&token=%257EAVUBCQFZDVINABRVDwhDVhVFAAtFXEVGAVQeUVVRFQFLFlZWRQhHFwUEFAVPUAELXwRQVwADDgQG%257E1%257E

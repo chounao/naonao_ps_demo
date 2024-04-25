@@ -1,0 +1,14 @@
+POST /fhd/thirdplatform/uploadLoginLog.do HTTP/1.1
+{
+    "success": true,
+    "data": [],
+    "error": []
+}
+==========python sqlmapapi==========
+Host:jdapione.fhd001.com
+{
+    "success": true,
+    "data": [],
+    "error": []
+}
+==========python sqlmapapi==========

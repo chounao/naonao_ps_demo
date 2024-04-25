@@ -1,0 +1,6 @@
+POST /fhd/thirdplatform/uploadLoginLog.do HTTP/1.1
+Host:jdapione.fhd001.com
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Type:application/x-www-form-urlencoded
+
+result=0&message=%E7%99%BB%E5%BD%95%E6%88%90%E5%8A%9F&shopName=%E5%90%AF%E9%94%90%E5%AE%98%E6%96%B9%E6%97%97%E8%88%B0%E5%BA%97&shopId=684628&deviceId=5BVGNDBR4BTPEZSLVEDWPLKXQPUNBNH7APBX67RLSNZ354ZAC6IXGI2ZDHN4IGX5BVA5D5JZY7ASNQCOL5BU2P3ATQ&referer=jdportal&token=~B1QFBlNRCU%2BE9c2PpPHTlvvXroCCo%2FKNvNGAiaFJCRsEUAwPU1UAW1BVTlYJVw%3D%3D~1~
