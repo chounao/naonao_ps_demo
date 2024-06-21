@@ -6,6 +6,7 @@ shopid1 = 1623492085
 shopid2 = 1624961198
 shopids = str(shopid1)+','+str(shopid2)
 platform = ['kuaishou','douyin','1688','xiaohongshu','thyny','pinduoduo']
+TOKEN = '%7EU1AABQlfBgEITQBcXxdUQxJSVhYNEkcHUU1WDVoQBEsRB11AWRVBAANNUBwHVAAIXwANVV1RAgQ%3D%7E1%7E'
 for p in platform:
     ml = []  # 密文
     l = []  # 非密文
@@ -18,12 +19,12 @@ for p in platform:
     'sort': 'payTime',
     'desc': 'true',
     'channel':p,
-    'startConfirmTime': 1706716800,
-    'endConfirmTime': 1711814400,
+    'startConfirmTime': 1710950400,
+    'endConfirmTime': 1718985599,
     'page': 1,
     'pageSize': 200,
     'referer': 'albbportal',
-    'token': '%7EXVEABQlfBgEITQBcXxdUQxJSVhYNEkcHUU1WDVoQBEsRB11AWRVBAANNUBwHVAAAVwYIVVBWBgE%3D%7E1%7E'}
+    'token': TOKEN}
     response = requests.post('https://albbapi.fhd001.com/albb/multiShopQueryAlbbOrder.do',body,h)
     # 检查请求是否成功
     if response.status_code == 200:
@@ -33,7 +34,7 @@ for p in platform:
         for i in data['data']['list']:
             # print(i)
             if i['refundStatus'] == "":
-                order = i['info']['orderSn']
+                order =int(i['info']['orderSn'])
                 orderinfo = i['info']['orderInfo']
                 if '"fromEncryptOrder":true' in orderinfo:
                     ml.append(order)
